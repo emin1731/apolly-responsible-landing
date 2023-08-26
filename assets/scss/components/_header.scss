@@ -1,0 +1,122 @@
+.header {
+    width: 100%;
+    background-image: url("../img/background.png");
+    height: 100vh;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.6rem;
+
+    &__item {
+        display: flex;
+    }
+    &__social {
+        display: flex;
+        gap: var(--mb-2);
+    }
+    &__mail {
+        margin-right: 3rem;
+    }
+    &__mail, &__phone {
+        display: flex;
+        color: var(--white);
+    }
+    &__img-1, &__img-2 {
+        width: 18px;
+        height: auto;
+        filter: invert(98%) sepia(79%) saturate(6%) hue-rotate(181deg) brightness(104%) contrast(102%);
+    }
+
+    &__img-1 {
+        margin-right: var(--mb-1);
+    }
+
+}
+
+.nav {
+    width: 80%;
+    height: 60px;
+    background-color: var(--white);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: var(--h5-font-size);
+    
+    font-weight: var(--font-semi-bold);
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    // &__item{
+    //     @media screen and (max-width: 1330px){
+    //         color: var(--black);
+    //         // width: 100%;
+    //         display: none;
+    //     }
+    // }
+    
+    &__toggle {
+        width: 24px;
+        height: auto;
+        margin-left: 18px;
+        display: none;
+    }
+    &__list {
+        display: flex;
+        align-items: center;
+        
+        font-size: var(--h5-font-size);
+        font-weight: var(--font-semi-bold);
+    }
+    &__item {
+        // color: var(--black);
+    }
+    &__link {
+        margin: 0 1rem;
+    }
+    &__logo {
+        width: 200px;
+        height: 90px;
+        border-radius: 5px;
+        background: var(--white);
+        box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        top: 59px;
+        transform: translateX(-50%);
+
+    }
+    &__download {
+        width: 158px;
+        height: 50px;
+        border-radius: 5px;
+        background: var(--royal-blue);
+        color: var(--white);
+    }
+    @media screen and (max-width: 1330px) {
+        // &__download {
+        //     display: block;
+        // }
+        &__item :not(&__download) {
+            color: var(--black);
+            display: none;
+        }
+        &__toggle {
+            display: block;
+            
+        }
+    }
+}
