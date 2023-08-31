@@ -1,5 +1,5 @@
 .home {
-    margin-top: 108px;
+    padding-top: 108px;
     width: 85%;
     z-index: 10;
     // display: flex;
@@ -34,7 +34,7 @@
     }
     &__description {
         font-size: var(--normal-font-size);
-        color: var(--gray-paragraph);
+        // color: var(--gray-paragraph);
         font-weight: var(--font-regular);
         line-height: 24px;
     }

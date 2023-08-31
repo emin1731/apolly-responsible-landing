@@ -64,6 +64,13 @@
             width: 200px;
         }
     }
+    .about {
+
+        &__container {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
     
 }
  
@@ -95,6 +102,16 @@
         &__download img {
             width: 149px;
             height: 47px;
+        }
+    }
+    .about {
+        &__img {
+            width: 386px;
+            height: 526px;
+        }
+        &__item {
+            height: 160px;
+            min-width: 570px;
         }
     }
 }
