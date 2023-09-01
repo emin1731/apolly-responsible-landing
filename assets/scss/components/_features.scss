@@ -1,0 +1,40 @@
+.features {
+    
+    text-align: center;
+    height: auto;
+    background-image: url("../img/features-background.png");
+    background-size: 100% auto;
+    * {
+        color: var(--white); 
+    }
+
+    &__title {
+
+        margin-bottom: var(--mb-1);
+    }
+    &__description {
+        margin-bottom: var(--mb-2);
+    }
+    &__item {
+        margin: 0 auto;
+        margin-top: var(--mb-2);
+        width: 60%;
+        img {
+            filter: invert(100%) sepia(5%) saturate(0%) hue-rotate(12deg) brightness(108%) contrast(106%);
+            margin-bottom: var(--mb-2);
+        }
+        h6 {
+            margin-bottom: var(--mb-1);
+        }
+    }
+    &__img {
+        width: 214px;
+        height: 468px;
+        border-radius: 40px;
+        box-shadow: 40px 40px 100px 0px rgba(24, 48, 63, 0.50);
+        margin-top: 60px;
+        margin-bottom: 90px;
+    }
+
+
+}

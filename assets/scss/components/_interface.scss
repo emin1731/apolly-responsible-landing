@@ -1,0 +1,24 @@
+
+:root {
+--swiper-pagination-bottom: -65px;
+--swiper-pagination-color: var(--royal-blue);
+--swiper-pagination-bullet-width: 20px;
+  --swiper-pagination-bullet-height: 20px;
+  --swiper-pagination-bullet-inactive-color: var(--gray-paragraph);
+  --swiper-pagination-bullet-horizontal-gap: 9px;
+}
+.interface {
+    text-align: center;
+    &__title {
+        margin-bottom: var(--mb-1);
+    }
+    &__description {
+        margin-bottom: var(--mb-2-5);
+    }
+    &__container {
+        padding-bottom: 100px;
+        overflow: hidden;
+    }
+
+}
+
