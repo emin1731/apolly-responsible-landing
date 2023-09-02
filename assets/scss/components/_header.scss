@@ -46,8 +46,8 @@
     background-color: var(--white);
     border-radius: 5px;
     padding: 5px;
-    font-size: var(--h5-font-size);
-    font-weight: var(--font-semi-bold);
+    // font-size: var(--h5-font-size);
+    // font-weight: var(--font-semi-bold);
 
     &__container {
         display: flex;
@@ -64,7 +64,9 @@
 
     &__item {
         color: var(--black);
+        // padding-left: 60px;
     }
+    
 
     &__list {
         display: flex;
@@ -73,10 +75,35 @@
     &__link {
         color: var(--black);
         display: none;
+        position: relative;
+
         &:first-child {
             margin-left: var(--mb-2);
         }
+        &::after {
+            background: none repeat scroll 0 0 transparent;
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            background: var(--royal-blue);
+            
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            width: 0;
+        }
+        &:hover::after {
+            width: 100%; 
+            left: 0; 
+        }
+        &:hover {
+            color: var(--royal-blue);
+
+        }
     }
+
+
     &__logo {
         width: 100px;
         height: 60px;

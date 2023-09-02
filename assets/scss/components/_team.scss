@@ -42,6 +42,10 @@
         img {
             width: 24px;
             height: 24px;
+            &:hover {
+                transition: 0.2s ;
+                filter: invert(32%) sepia(55%) saturate(4851%) hue-rotate(234deg) brightness(96%) contrast(90%);
+            }
         }
 
     }

@@ -65,10 +65,15 @@
         display: flex;
         justify-content: space-between;
         // width: 100%;
+        
         img {
             filter: invert(99%) sepia(85%) saturate(2%) hue-rotate(250deg) brightness(108%) contrast(100%);
             width: 24px;
             height: 24px;
+            &:hover {
+                transition: 0.2s;
+                filter: invert(32%) sepia(55%) saturate(4851%) hue-rotate(234deg) brightness(96%) contrast(90%);
+            }
         }
     }
     &__divider {
@@ -111,6 +116,7 @@
             outline: none;
             // height: 30px;
             border-radius: 5px;
+            color: var(--black);
             
         }
     

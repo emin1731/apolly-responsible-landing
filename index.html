@@ -12,11 +12,12 @@
     <header class="header">
         <div class="contacts container">
             <div class="contacts__item">
-                <a href="#" class="contacts__mail">
+                <a href="mailto:info@youremail.com" class="contacts__mail">
                     <img src="assets/img/icons/mail-icon.svg" alt="" class="contacts__img-1">
+                    <!-- <a href="mailto:info@youremail.com"></a> -->
                     Info@youremail.com
                 </a>
-                <a href="#" class="contacts__phone">
+                <a href="tel:4805550103" class="contacts__phone">
                     <img src="assets/img/icons/phone-icon.svg" alt="" class="contacts__img-1">
                     (480) 555-0103
                 </a>
@@ -46,19 +47,19 @@
                 </div>
                 <div class="nav__item">
                     <a href="#home" class=""><h6 class="nav__link">home</h6></a>
-                    <a href="#home" class=""><h6 class="nav__link">about</h6></a>
-                    <a href="#home" class=""><h6 class="nav__link">features</h6></a>
+                    <a href="#about" class=""><h6 class="nav__link">about</h6></a>
+                    <a href="#features" class=""><h6 class="nav__link">features</h6></a>
                 </div>
                 <div class="nav__item">
-                    <a href="#home" class=""><h6 class="nav__link">screenshot</h6></a>
-                    <a href="#home" class=""><h6 class="nav__link">blog</h6></a>
+                    <a href="#screenshot" class=""><h6 class="nav__link">screenshot</h6></a>
+                    <a href="#blog" class=""><h6 class="nav__link">blog</h6></a>
                     <button class="nav__download"><h6>download</h6></button>
                 </div>
                 
                 
             </div>
         </nav>
-        <section class="home container">
+        <section class="home container" id="home">
             <!-- <div class="home__item"> -->
                 <div class="home__container">
                     <h2 class="home__title">A Great App Makes Your Life Better</h2>
@@ -67,24 +68,28 @@
                     </p>
                     <h5 class="home__text">Download App Now</h5>
                     <div class="home__download">
-                        <img src="assets/img/google-play.png" alt="">
-                        <img src="assets/img/app-store.png" alt="">
+                        <a href="">
+                            <img src="assets/img/google-play.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="assets/img/app-store.png" alt="">
+                        </a>
                     </div>
                     <!-- <img src="assets/img/home-page-border.png" alt="" class="home__border"> -->
                 </div>
             <!-- </div> -->
-            <img src="assets/img/home-mobile-app-mockup.png" alt="" class="home__img">
+            <img src="assets/img/home-mobile-app-mockup.png" alt="" class="home__img" width="246" height="493">
             <!-- <div class="home__item">
             </div> -->
         </section>
     </header>
 
     <main>
-        <section class="about container">
+        <section class="about container" id="about">
             <h4 class="about__title">About Our App</h4>
             <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus.</p>
             <div class="about__container">
-                <img src="assets/img/about-smartphone-mockup.png" alt="" class="about__img">
+                <img src="assets/img/about-smartphone-mockup.png" alt="" class="about__img" width="251" height="342">
                 <div class="about__list">
                     <div class="about__item">
                         <img src="assets/img/icons/check.svg" alt="">
@@ -96,14 +101,14 @@
                     <div class="about__item">
                         <img src="assets/img/icons/check.svg" alt="">
                         <div>
-                            <h6>Creative design</h6>
+                            <h6>Easy to use</h6>
                             <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
                         </div>
                     </div>
                     <div class="about__item">
                         <img src="assets/img/icons/check.svg" alt="">
                         <div>
-                            <h6>Creative design</h6>
+                            <h6>Best user experince</h6>
                             <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
                         </div>
                     </div>
@@ -111,7 +116,7 @@
             </div>
         </section>
 
-        <section class="features">
+        <section class="features" id="features">
             <div class="container">
                 <h4 class="features__title">App features</h4>
                 <p class="features__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
@@ -134,7 +139,7 @@
                         </div>
                     </div>
         
-                    <img src="assets/img/features-app.png" alt="" class="features__img">
+                    <img src="assets/img/features-app.png" alt="" class="features__img" width="214" height="468">
                     <div class="features__container-right">
                         <div class="features__item">
                             <img src="assets/img/icons/features-iso-android-version.svg" alt="">
@@ -159,7 +164,7 @@
             </div>
         </section>
 
-        <section class="interface">
+        <section class="interface" id="screenshot">
             <h4 class="interface__title">Checkout Our <br> App Interface Look</h4>
             <p class="interface__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
             <div class="interface__container">
@@ -193,8 +198,14 @@
                 <h4 class="interface__title">Download App Now</h4>
                 <p class="interface__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</p>
                 <div class="download__icons">
-                    <img src="assets/img/google-play.png" alt="">
-                    <img src="assets/img/app-store.png" alt="">
+                    <!-- <img src="assets/img/google-play.png" alt=""> -->
+                    <!-- <img src="assets/img/app-store.png" alt=""> -->
+                    <a href="">
+                        <img src="assets/img/google-play.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="assets/img/app-store.png" alt="">
+                    </a>
                 </div>
                 <div class="download__cards">
                     <div>
@@ -215,7 +226,7 @@
                 </div>
             </div>
             <div class="download__item">
-                <img src="assets/img/download-gravity-scene-i-phone.png" alt="" class="download__img">
+                <img src="assets/img/download-gravity-scene-i-phone.png" alt="" class="download__img" width="516px" height="480px">
             </div>
         </section>
 
@@ -225,8 +236,11 @@
                     <h4 class="interface__title">how to use the app perfectly</h4>
                     <p class="interface__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
                     <div class="howtouse__player">
-                        <img src="assets/img/howtouse-btn.png" alt="" class="howtouse__btn">
-                        <img src="assets/img/howtouse-player-img.png" alt="">
+                        <a href="">
+                            <img src="assets/img/howtouse-btn.png" alt="" class="howtouse__btn">
+                            <img src="assets/img/howtouse-player-img.png" alt="">
+
+                        </a>
     
                     </div>
                     <!-- <iframe width="auto" height="auto" src="https://www.youtube.com/embed/Vk8UEWHYfEg?si=KJcw3p_n0NKWrCrN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
@@ -237,7 +251,7 @@
 
         <section class="team container">
             <h4>Our reative team</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
+            <p class="team__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
             <div class="team__container">
                 <div class="team__item">
                     <img src="assets/img/team-img-1.png" alt="">
@@ -245,13 +259,21 @@
                     <h6>App Developer</h6>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
                     <div class="team__social">
-                        <img src="assets/img/icons/facebook.svg" alt="">
-                        <div class="team__divider"></div>
-                        <img src="assets/img/icons/instagram.svg" alt="">
-                        <div class="team__divider"></div>
-                        <img src="assets/img/icons/twitter.svg" alt="">
-                        <div class="team__divider"></div>
-                        <img src="assets/img/icons/youtube.svg" alt="">
+                        <a href="">
+                            <img src="assets/img/icons/facebook.svg" alt="">
+                        </a>
+                        <div class="footer__divider"></div>
+                        <a href="">
+                            <img src="assets/img/icons/instagram.svg" alt="">
+                        </a>
+                        <div class="footer__divider"></div>
+                        <a href="">
+                            <img src="assets/img/icons/twitter.svg" alt="">
+                        </a>
+                        <div class="footer__divider"></div>
+                        <a href="">
+                            <img src="assets/img/icons/youtube.svg" alt="">
+                        </a>
                     </div>
                 </div>
                 <div class="team__item">
@@ -260,13 +282,21 @@
                     <h6>UI/UX Designer</h6>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
                     <div class="team__social">
-                        <img src="assets/img/icons/facebook.svg" alt="">
+                        <a href="">
+                            <img src="assets/img/icons/facebook.svg" alt="">
+                        </a>
                         <div class="team__divider"></div>
-                        <img src="assets/img/icons/instagram.svg" alt="">
+                        <a href="">
+                            <img src="assets/img/icons/instagram.svg" alt="">
+                        </a>
                         <div class="team__divider"></div>
-                        <img src="assets/img/icons/twitter.svg" alt="">
+                        <a href="">
+                            <img src="assets/img/icons/twitter.svg" alt="">
+                        </a>
                         <div class="team__divider"></div>
-                        <img src="assets/img/icons/youtube.svg" alt="">
+                        <a href="">
+                            <img src="assets/img/icons/youtube.svg" alt="">
+                        </a>
                     </div>
                 </div>
                 <div class="team__item">
@@ -275,13 +305,21 @@
                     <h6>Website developer</h6>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
                     <div class="team__social">
-                        <img src="assets/img/icons/facebook.svg" alt="">
+                        <a href="">
+                            <img src="assets/img/icons/facebook.svg" alt="">
+                        </a>
                         <div class="team__divider"></div>
-                        <img src="assets/img/icons/instagram.svg" alt="">
+                        <a href="">
+                            <img src="assets/img/icons/instagram.svg" alt="">
+                        </a>
                         <div class="team__divider"></div>
-                        <img src="assets/img/icons/twitter.svg" alt="">
+                        <a href="">
+                            <img src="assets/img/icons/twitter.svg" alt="">
+                        </a>
                         <div class="team__divider"></div>
-                        <img src="assets/img/icons/youtube.svg" alt="">
+                        <a href="">
+                            <img src="assets/img/icons/youtube.svg" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -329,9 +367,9 @@
             </div>
         </section>
 
-        <section class="blog container">
+        <section class="blog container" id="blog">
             <h4>Our recent blog</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
+            <p class="blog__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
             <div class="blog__container">
                 <div class="blog__item">
                     <img src="assets/img/blog-img-1.png" alt="">
@@ -371,7 +409,7 @@
     <div class="footer-contacts container">
         <div class="footer-contacts__item">
             <img src="assets/img/icons/footer-mail.svg" alt="">
-            <h5>info.design@gmail.com</h5>
+            <h5><a href="mailto:info@youremail.com">info.design@gmail.com</a></h5>
 
         </div>
         <div class="footer-contacts__divider">
@@ -379,7 +417,7 @@
         </div>
         <div class="footer-contacts__item">
             <img src="assets/img/icons/footer-phone.svg" alt="">
-            <h5>+880 321 655 9985</h5>
+            <h5><a href="tel:+8803216559985">+880 321 655 9985</a></h5>
 
         </div>
     </div>
@@ -391,22 +429,30 @@
                     <h4>LOGO</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</p>
                     <div class="footer__social">
-                        <img src="assets/img/icons/facebook.svg" alt="">
-                        <div class="footer__divider"></div>
-                        <img src="assets/img/icons/instagram.svg" alt="">
-                        <div class="footer__divider"></div>
-                        <img src="assets/img/icons/twitter.svg" alt="">
-                        <div class="footer__divider"></div>
-                        <img src="assets/img/icons/youtube.svg" alt="">
+                        <a href="">
+                            <img src="assets/img/icons/facebook.svg" alt="">
+                        </a>
+                        <div class="team__divider"></div>
+                        <a href="">
+                            <img src="assets/img/icons/instagram.svg" alt="">
+                        </a>
+                        <div class="team__divider"></div>
+                        <a href="">
+                            <img src="assets/img/icons/twitter.svg" alt="">
+                        </a>
+                        <div class="team__divider"></div>
+                        <a href="">
+                            <img src="assets/img/icons/youtube.svg" alt="">
+                        </a>
                     </div>
                 </div>
                 <div class="footer__item">
                     <h5>Quick Link</h5>
                     <ul class="footer__list">
-                        <li>About</li>
-                        <li>Features</li>
-                        <li>Screenshot</li>
-                        <li>Blog</li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#screenshot">Screenshot</a></li>
+                        <li><a href="#blog">Blog</a></li>
                     </ul>
                 </div>
                 <div class="footer__item">
@@ -418,7 +464,7 @@
                     </form> -->
 
                     <form class="footer__form" target="#">
-                        <input class="footer__input" type="email" id="email-signup" placeholder="Enter your email here...." required>
+                        <input class="footer__input" type="email" id="email-signup" placeholder="Your email address" required>
                         <button class="footer__btn" type="submit" id="btn"><img src="assets/img/icons/footer-btn.svg" alt=""></button>
                     </form>
                 </div>

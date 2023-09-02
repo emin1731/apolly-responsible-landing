@@ -5,7 +5,7 @@
     text-align: center;
     background-image: url("../img/customers-background-small.png");
     background-size: 100% auto;
-
+    min-height: 369px;
 
     &__title {
         color: var(--white);
@@ -15,7 +15,9 @@
         color: var(--white);
         margin-bottom: var(--mb-2);
     }
-
+    // &__container {
+    //     height: 250px;
+    // }
     .swiper-slide {
         background-color: var(--white);
         width: 343px;

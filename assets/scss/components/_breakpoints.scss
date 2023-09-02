@@ -25,10 +25,13 @@
             top: 25px;
         }
         &__download {
-            font-size: var(--h5-font-size);
-            font-weight: var(--font-semi-bold);
-            width: 158px;
             height: 50px;
+            width: 158px;
+            h6 {
+                font-size: var(--h6-font-size);
+                font-weight: var(--font-semi-bold);
+
+            }
         }
     }
     
@@ -120,6 +123,20 @@
     }
     
     .team {
+        &__description {
+            visibility: hidden;
+            position: relative;
+            max-width: 601px;
+            margin: 0 auto;
+            margin-bottom: 60px;
+            &::after {
+                visibility: visible;
+                content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.'; 
+                display: block;
+                position: absolute;
+                top: 0;
+            }
+        }
         &__container {
             flex-direction: row;
         }
@@ -136,6 +153,20 @@
         }
     }
     .customers {
+        &__description {
+            visibility: hidden;
+            position: relative;
+            max-width: 601px;
+            margin: 0 auto;
+            margin-bottom: 60px;
+            &::after {
+                visibility: visible;
+                content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.'; 
+                display: block;
+                position: absolute;
+                top: 0;
+            }
+        }
         background-image: url("../img/customers-background-mid.png");
         .swiper-slide {
             width: 450px;
@@ -227,6 +258,20 @@
         }
     }
     .about {
+        &__description {
+            visibility: hidden;
+            position: relative;
+            margin-bottom: 60px;
+            &::after {
+                visibility: visible;
+                content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.'; 
+                display: block;
+                position: absolute;
+                top: 0;
+                // background-color: red;
+                // padding: 5px;
+            }
+        }
         &__img {
             width: 386px;
             height: 526px;
@@ -234,6 +279,19 @@
         &__item {
             height: 160px;
             min-width: 570px;
+            p {
+                visibility: hidden;
+                position: relative;
+                &::after {
+                    visibility: visible;
+                    content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.'; 
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    // background-color: red;
+                    // padding: 5px;
+                }
+            }
         }
     }
     .blog {
@@ -272,6 +330,20 @@
         }
     }
     .features {
+        &__description {
+            visibility: hidden;
+            position: relative;
+            max-width: 601px;
+            margin: 0 auto;
+            margin-bottom: 60px;
+            &::after {
+                visibility: visible;
+                content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.'; 
+                display: block;
+                position: absolute;
+                top: 0;
+            }
+        }
         &__img {
             width: 375px;
             height: 812px;
@@ -295,6 +367,20 @@
         }
     }
     .interface {
+        &__description {
+            visibility: hidden;
+            position: relative;
+            max-width: 601px;
+            margin: 0 auto;
+            margin-bottom: 60px;
+            &::after {
+                visibility: visible;
+                content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.'; 
+                display: block;
+                position: absolute;
+                top: 0;
+            }
+        }
         &__container {
             margin: 0 188px;
         }
@@ -342,8 +428,21 @@
         }
     }
     .blog {
+        &__description {
+            visibility: hidden;
+            position: relative;
+            max-width: 601px;
+            margin: 0 auto;
+            margin-bottom: 60px;
+            &::after {
+                visibility: visible;
+                content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.'; 
+                display: block;
+                position: absolute;
+                top: 0;
+            }
+        }
         h4 {
-            font-size: var(--h6-font-size);
             margin-bottom: var(--mb-1-5);
         }
         p {
