@@ -72,6 +72,10 @@ button,
 input{
     border: none;
     outline: none;
+    font-family: Josefin Sans;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-regular);
+    line-height: 24px; 
 }
 
 button{

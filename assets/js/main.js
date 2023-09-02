@@ -4,7 +4,7 @@ const swiper = new Swiper('.swiper', {
     loop: true,
     centeredSlides: true,
     slidesPerView: "auto",
-    
+    grabCursor: true,
     effect: 'cards',
     cardsEffect: {
         perSlideOffset: 19,
@@ -38,6 +38,7 @@ const customersSwiper = new Swiper('.customers-swiper', {
     loop: true,
     centeredSlides: true,
     slidesPerView: "auto",
+    grabCursor: true,
     
     effect: 'cards',
     cardsEffect: {
