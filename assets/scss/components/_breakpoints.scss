@@ -55,7 +55,7 @@
     .home {
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 221px;
+        padding-top: 211px;
 
         &__container {
             // width: 356px;
@@ -230,7 +230,7 @@
 
 @media screen and (min-width: 992px){
     .home {
-        margin-top: 67px;
+        padding-top: 67px;
 
         &__container {
             padding: 40px 23px 41px 30px;
@@ -250,6 +250,7 @@
 
         &__img {
             width: 334px;
+            margin-right: 70px;
         }
         
         &__download img {
@@ -483,3 +484,4 @@
     }
 
 }
+
